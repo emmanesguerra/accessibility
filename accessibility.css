@@ -1,0 +1,138 @@
+#acc-widget 
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Arial"
+}
+
+#acc-widget-container
+{
+    background: rgb(252, 252, 252);
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#acc-widget-container i
+{
+    color: #015196;
+}
+
+#acc-widget-menu-container
+{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    float: left;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #015196;
+    border-radius: 5px;
+    display: none;
+}
+
+#acc-widget-menu-container h3
+{
+    color: #fff;
+    background: #015196;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.acc-widget-menu
+{
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+.acc-widget-menu li
+{
+    display: block;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.acc-widget-menu li span
+{
+    position:relative;
+    float:left;
+    width: 100%;
+    padding: 15px 10px; 
+    font-size: 14px;
+    border: 1px #fff solid
+}
+
+.acc-widget-menu li span.active i.acc-check
+{
+    display: block;
+}
+
+.acc-widget-menu li span i
+{
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.acc-widget-menu li span i.acc-check
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: auto;
+    font-size: 12px;
+    display: none;
+}
+
+.acc-widget-menu li span.active
+{
+    border: 1px #343434 solid
+}
+
+.acc-widget-menu li.full
+{
+    width: 100%;
+}
+
+.acc-widget-menu li.half
+{
+    width: 50%;
+}
+
+#acc-widget-tooltip
+{
+    position: fixed;
+    display: none;
+    padding: 5px 20px;
+    background: #363636;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.acc-invert-bg-theme
+{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.acc-grayscale-theme
+{
+    filter: grayscale(100%)!important;
+    -webkit-filter: grayscale(100%)!important;
+}
